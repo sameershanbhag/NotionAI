@@ -8,7 +8,7 @@ import { clerk } from "@/lib/clerk-server";
 import React from "react";
 import Link from "next/link";
 import TipTapEditor from "@/components/TipTapEditor";
-import DeleteButton from "@/components/deleteButton";
+import DeleteButton from "@/components/DeleteButton";
 
 type Props = {
   params: {
