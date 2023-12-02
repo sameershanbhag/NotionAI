@@ -8,6 +8,7 @@ import { clerk } from "@/lib/clerk-server";
 import React from "react";
 import Link from "next/link";
 import TipTapEditor from "@/components/TipTapEditor";
+import DeleteButton from "@/components/deleteButton";
 
 type Props = {
   params: {
@@ -50,7 +51,9 @@ const NotebookPage = async ({ params: { noteId } }: Props) => {
           </span>
           <span className="inline-block mx-1"> / </span>
           <span className="font-semibold text-stone-500"> {note.name} </span>
-          <div className="ml-auto">DELETE BUTTON</div>
+          <div className="ml-auto">
+            <DeleteButton noteId={note.id} />
+          </div>
         </div>
 
         <div className="h-4"></div>
