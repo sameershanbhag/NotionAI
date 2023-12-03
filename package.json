@@ -27,6 +27,7 @@
     "drizzle-kit": "^0.20.6",
     "drizzle-orm": "^0.29.0",
     "firebase": "^10.7.0",
+    "grapheme-splitter": "^1.0.4",
     "lucide-react": "^0.293.0",
     "next": "14.0.3",
     "openai-edge": "^1.2.2",
