@@ -19,6 +19,7 @@
     "@tiptap/pm": "^2.1.12",
     "@tiptap/react": "^2.1.12",
     "@tiptap/starter-kit": "^2.1.12",
+    "@vercel/speed-insights": "^1.0.9",
     "ai": "^2.2.27",
     "axios": "^1.6.2",
     "class-variance-authority": "^0.7.0",
